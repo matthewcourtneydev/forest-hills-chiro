@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    position: relative;
+    max-width: 100dvw;
+    max-height: 100dvh;
+    min-width: 100dvw;
+    min-height: 100dvh;
+    overflow-y: scroll;
+}
+
+.page {
+    background-color: rgb(125, 125, 189);
+    min-height: 100dvh;
+    min-width: 100dvw;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    h1 {
+        padding-top: 70px
+    }
+}
+
+.closed {
+    display: none;
+}

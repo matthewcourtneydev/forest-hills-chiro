@@ -1,0 +1,36 @@
+#menu {
+    padding-top: 80px;
+    
+    .navigation-links {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        min-height: 50svh;
+        max-height: fit-content;
+        justify-content: space-around;
+
+        li {
+            font-size: 25px;
+            min-height: 55px;
+
+            a {
+                text-decoration: none;
+                color: inherit
+            }
+        }
+
+        ul {
+            margin-left: 30px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            padding-bottom: 15px;
+
+            li {
+                min-height: 30px;
+                font-size: 20px;
+            }
+        }
+    }
+}
