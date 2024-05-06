@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/forest-hills-chiro/static/css/main.9eb7f84f.css",
+    "main.js": "/forest-hills-chiro/static/js/main.4acef321.js",
+    "index.html": "/forest-hills-chiro/index.html",
+    "main.9eb7f84f.css.map": "/forest-hills-chiro/static/css/main.9eb7f84f.css.map",
+    "main.4acef321.js.map": "/forest-hills-chiro/static/js/main.4acef321.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eb7f84f.css",
+    "static/js/main.4acef321.js"
+  ]
+}
