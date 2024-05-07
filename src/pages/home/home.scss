@@ -1,0 +1,27 @@
+#home-page {
+    background-color: yellow;
+    overflow-x: hidden;
+    max-width: 100dvw;
+    padding-bottom: 40px;
+
+    h3 {
+        margin-top: 90dvh;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    .meet {
+        padding: 10px 20px;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+}
