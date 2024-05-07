@@ -9,6 +9,9 @@ const Menu = (props) => {
   function handleMenuSelect(route) {
     navigate(route)
     props.toggleMenu((prev) => !prev);
+    if (isAboutExpanded) {
+      toggleAbout((prev) => !prev)
+    }
   }
   return (
     <div className={props.isMenuOpen ? "page" : "page closed"} id="menu">
@@ -45,7 +48,7 @@ const Menu = (props) => {
               </li>
             </ul>
           </li>
-          <li><a href="https://intake.mychirotouch.com/?clinic=FHC0002">Patients</a></li>
+          <li><a href="https://intake.mychirotouch.com/?clinic=FHC0002" target="_blank">Patients</a></li>
           <li
             onClick={() => handleMenuSelect("/services")}
           >

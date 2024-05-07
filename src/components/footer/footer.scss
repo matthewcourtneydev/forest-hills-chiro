@@ -1,8 +1,72 @@
 .footer {
-    background-color: blue;
+    background-color: rgb(32, 32, 201);
     min-width: 100dvw;
-    padding: 40px 30px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    padding: 0px 30px;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+
+    .address {
+        background-color: white;
+        width: 100dvw;
+        margin-left: -30px;
+        justify-content: center;
+        text-align: center;
+        padding: 50px 0px;
+        min-height: 200px;
+    }
+    .hours {
+        height: 30dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        margin-top: 40px;
+        margin-bottom: 70px;
+
+        h3 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+
+       .socials {
+            display: flex;
+            list-style: none;
+            width: 25dvw;
+            margin: auto;
+            justify-content: space-between;
+            font-size: 20px;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        .hours-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            margin-bottom: 50px;
+        }
+
+    }
+
+    .map {
+        p {
+            margin-left: -30px;
+        }
+    }
+
+    .footnote {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        text-align: center;
+    }
 }

@@ -3,12 +3,13 @@
     width: 100dvw;
     padding: 15px 30px 5px;
     height: fit-content;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     align-items: center;
     display: flex;
     align-items: center;
+    z-index: 10;
 
     span {
         font-size: 40px;
