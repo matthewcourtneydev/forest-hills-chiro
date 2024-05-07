@@ -11,6 +11,16 @@ import Team from "./pages/team/team.jsx"
 import Videos from "./pages/videos/videos.jsx"
 import Testimonials from './pages/testimonials/testimonials';
 import OfficeTour from './pages/office-tour/office-tour';
+import ActiveRehab from "./pages/active-rehab/active-rehab"
+import Chirporactic from './pages/chiropractic/chirporactic';
+import ColdLaser from './pages/cold-laser/cold-laser';
+import CellularCleanse from './pages/cellular-cleanse/cellular-cleanse';
+import Hydrotherapy from './pages/hydrotherapy/hydrotherapy';
+import Orthotics from './pages/orthotics/orthotics';
+import SpinalDecompression from './pages/spinal-decompression/spinal-decompression';
+import SpinalManipulation from './pages/spinal-manipulation/spinal-manipulation';
+import WholeBodyVibrations from './pages/whole-body-vibration/whole-body-vibrations';
+
 
 import Menu from "./components/menu/menu.jsx"
 import Navbar from "./components/navbar/navbar.jsx"
@@ -32,6 +42,15 @@ function App() {
         <Route path={"/videos"} element={<Videos />} />
         <Route path={"/testimonials"} element={<Testimonials />} />
         <Route path={"/office-tour"} element={<OfficeTour />} />
+        <Route path={"/active-rehabilitation"} element={<ActiveRehab />} />
+        <Route path={"/chiropractic"} element={<Chirporactic />} />
+        <Route path={"/cold-laser-therapy"} element={<ColdLaser />} />
+        <Route path={"/eb-305-cellular-cleanse"} element={<CellularCleanse />} />
+        <Route path={"/hydrotherapy"} element={<Hydrotherapy />} />
+        <Route path={"/orthotics"} element={<Orthotics />} />
+        <Route path={"/spinal-decompression"} element={<SpinalDecompression />} />
+        <Route path={"/spinal-manipulation"} element={<SpinalManipulation />} />
+        <Route path={"/whole-body-vibrations"} element={<WholeBodyVibrations />} />
       </Routes>
       <Footer />
     </div>
