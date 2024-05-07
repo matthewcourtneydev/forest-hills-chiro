@@ -9,7 +9,7 @@ const Team = () => {
         <div className="page" id="team-page">
             <h2>Meet the Team</h2>
             <section className="person">
-                <img src={img} alt="" />
+                <img src={img} alt="doctors headshot" />
                 <p className="title">CHIROPRACTOR</p>
                 <h4>MICHAEL TESTEN D.C.</h4>
                 <p className="first-paragraph">
