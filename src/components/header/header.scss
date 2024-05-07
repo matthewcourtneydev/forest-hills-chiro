@@ -1,0 +1,61 @@
+.header {
+    min-height: 85dvh;
+    width: 200%;
+    margin: auto;
+    position: absolute;
+    left: -50%;
+    border-radius: 0px 0px 50% 50%;
+    background-image: url("../../imgs/pitt.jpeg");
+    background-size: cover;
+    color: white;
+
+    .overlay {
+        min-height: 85dvh;
+        width: 100%;
+        margin: auto;
+        position: absolute;
+        left: 0%;
+        border-radius: 0px 0px 50% 50%;
+        z-index: 3;
+        background-color: rgba(28, 167, 28, 0.557);
+    }
+    
+
+    .inner {
+        max-width: 48dvh;
+        position: relative;
+        margin: auto;
+        left: 0;
+        right: 0;
+        margin-top: 180px;
+        z-index: 5;
+
+        h2 {
+            max-width: 90%;
+            margin: auto;
+            text-align: center;
+            font-size: 33px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+        }
+
+        button {
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            max-width: 60%;
+            background: none;
+            border: none;
+            background-color: pink;
+            padding: 15px;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+    }
+}

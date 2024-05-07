@@ -33,6 +33,7 @@ function App() {
         <Route path={"/testimonials"} element={<Testimonials />} />
         <Route path={"/office-tour"} element={<OfficeTour />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
