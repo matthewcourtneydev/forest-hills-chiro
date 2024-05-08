@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(32, 32, 201);
+    background-color: #3b5948;
     min-width: 100dvw;
     padding: 0px 30px;
     height: fit-content;
@@ -9,7 +9,7 @@
     gap: 1px;
 
     .address {
-        background-color: white;
+        background-color: #f6f7f3;
         width: 100dvw;
         margin-left: -30px;
         justify-content: center;
@@ -23,7 +23,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        color: white;
+        color: #f6f7f3;
         margin-top: 40px;
         margin-bottom: 70px;
 
@@ -66,7 +66,7 @@
     .footnote {
         margin-top: 20px;
         padding-bottom: 20px;
-        color: white;
+        color: #f6f7f3;
         text-align: center;
     }
 }

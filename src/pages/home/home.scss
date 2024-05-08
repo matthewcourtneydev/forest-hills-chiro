@@ -1,8 +1,10 @@
 #home-page {
-    background-color: yellow;
+    background-color: #6e8c73;
     overflow-x: hidden;
     max-width: 100dvw;
     padding-bottom: 40px;
+    padding-top: 0px;
+    color: #f6f7f3;
 
     h3 {
         margin-top: 90dvh;
@@ -23,5 +25,8 @@
         padding: 10px 20px;
         font-size: 20px;
         margin-top: 15px;
+        background-color: #cfe0cc;
+        border: none;
+        border-radius: 25px;;
     }
 }

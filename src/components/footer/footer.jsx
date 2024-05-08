@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <footer className="footer" id="footer">
             <section className="address">
-                <h3>FOREST HILLS CHIROPRACTICE</h3>
+                <h3>FOREST HILLS CHIROPRACTIC</h3>
                 <ul>
                     <li>21 Yost Blvd #150</li>
                     <li>Forest Hills, PA 15221</li>

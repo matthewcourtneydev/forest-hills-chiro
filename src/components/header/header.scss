@@ -7,7 +7,7 @@
     border-radius: 0px 0px 50% 50%;
     background-image: url("../../imgs/pitt.jpeg");
     background-size: cover;
-    color: white;
+    color: #3b5948;
 
     .overlay {
         min-height: 85dvh;
@@ -17,7 +17,7 @@
         left: 0%;
         border-radius: 0px 0px 50% 50%;
         z-index: 3;
-        background-color: rgba(28, 167, 28, 0.557);
+        background-color: #f6f7f3a2;
     }
     
 
@@ -52,10 +52,11 @@
             max-width: 60%;
             background: none;
             border: none;
-            background-color: pink;
+            background-color: #3b5948;
             padding: 15px;
             border-radius: 25px;
             margin-top: 20px;
+            color: #f6f7f3;
         }
     }
 }
