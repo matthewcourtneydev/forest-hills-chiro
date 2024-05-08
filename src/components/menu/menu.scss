@@ -1,19 +1,19 @@
 #menu {
     padding-top: 80px;
-    position: fixed;
+    padding-bottom: 10px;
     z-index: 10;
+    background-color: #a6bea2;
+    position: fixed;
     
     .navigation-links {
         list-style: none;
         display: flex;
         flex-direction: column;
-        min-height: 50svh;
-        max-height: fit-content;
         justify-content: space-around;
 
         li {
-            font-size: 25px;
-            min-height: 55px;
+            font-size: 16px;
+            min-height: 30px;
 
             a {
                 text-decoration: none;
@@ -30,8 +30,8 @@
             padding-bottom: 15px;
 
             li {
-                min-height: 30px;
-                font-size: 20px;
+                min-height: 25px;
+                font-size: 12px;
             }
         }
     }

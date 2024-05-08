@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <footer className="footer" id="footer">
             <section className="address">
-                <h3>FOREST HILLS CHIROPRACTICE</h3>
+                <h3>FOREST HILLS CHIROPRACTIC</h3>
                 <ul>
                     <li>21 Yost Blvd #150</li>
                     <li>Forest Hills, PA 15221</li>
@@ -33,8 +33,8 @@ const Footer = () => {
                     <li><strong>Sunday: </strong> Closed</li>
                 </ul>
                 <ul className="socials">
-                    <li><FaFacebookF /></li>
-                    <li><FaTwitter /></li>
+                    <li><a href="https://www.facebook.com/ForestHillsChiropractic/" target="_blank"><FaFacebookF /></a></li>
+                    <li><a href="https://twitter.com/fhchiro412/" target="_blank"><FaTwitter /></a></li>
                     <li><a href="https://www.google.com/maps/dir//Forest+Hills+Chiropractic+Center,+21+Yost+Blvd,+Forest+Hills,+PA+15221/@40.4139563,-79.8475157,19z/data=!3m1!5s0x8834eebecf9182a3:0xaaa8fe3b4254c68d!4m9!4m8!1m0!1m5!1m1!1s0x8834ec27cff574bf:0xeba2c8a97c96f112!2m2!1d-79.8472244!2d40.4139309!3e0?entry=ttu" target="_blank"><FaMap /></a></li>
                 </ul>
             </section>

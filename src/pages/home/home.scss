@@ -1,8 +1,10 @@
 #home-page {
-    background-color: yellow;
+    background-color: #6e8c73;
     overflow-x: hidden;
     max-width: 100dvw;
     padding-bottom: 40px;
+    padding-top: 0px;
+    color: #f6f7f3;
 
     h3 {
         margin-top: 90dvh;
@@ -12,16 +14,25 @@
     }
 
     h4 {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        color: #3b5948;
+        font-size: 28px;
+        text-align: center;
     }
 
     p {
         margin-bottom: 10px;
+        line-height: 18px;
+        font-size: 12px;
+        letter-spacing: .5px;
     }
 
     .meet {
         padding: 10px 20px;
         font-size: 20px;
         margin-top: 15px;
+        background-color: #cfe0cc;
+        border: none;
+        border-radius: 25px;;
     }
 }

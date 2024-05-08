@@ -1,16 +1,17 @@
 import React from 'react';
 import "./testimonials.scss"
+import TestimonalsJson from "../../testimonials.json"
 
 import TestimonialCard from '../../components/testimonial-card/testimonial-card';
 
 const Testimonials = () => {
-    const testimonialsData = [0, 1, 3, 4, 5, 6, 7]
+    const testimonialsData = TestimonalsJson;
     return (
         <div className="page" id="testimonials-page">
-            <h2>Chiropractic Testimonials</h2>
+            <h2>Testimonials</h2>
             <section className="testimonials">
             {testimonialsData.map((test) => {
-                return <TestimonialCard />
+                return <TestimonialCard testimonial={test}/>
             })}
             </section>
         </div>
