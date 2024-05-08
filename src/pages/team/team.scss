@@ -1,45 +1,70 @@
 #team-page {
-    padding-top: 80px;
-    max-height: 100dvh;
+  padding-top: 80px;
+  padding-bottom: 0px;
 
-    h2 {
-        margin-bottom: 20px;
+  .title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: "Gruppo", sans-serif;
+    color: #a6bea2;
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Michroma", sans-serif;
+    color: #3b5948;
+  }
+
+  .person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3b5948;
+
+    p {
+      letter-spacing: 0.5px;
+      line-height: 18px;
+      font-size: 12px;
+      font-family: "Michroma", sans-serif;
     }
 
-    .title {
-        font-size: 14px;
-        font-weight: bold;
-        margin-top: 15px;
+    img {
+      min-width: 55dvw;
+      width: 50dvw;
+      height: auto;
+      min-height: 100px;
+      margin: auto;
+      border-radius: 50%;
+      margin: auto;
     }
 
-    h4 {
-        font-size: 20px;
+    button {
+      background: none;
+      margin-top: 20px;
+      min-height: 50px;
+      min-width: 100%;
+      background-color: #6e8c73;
+      border: none;
+      color: white;
+      font-family: "Michroma", sans-serif;
+    }
+
+    .quote {
+        margin-top: 40px;
         margin-bottom: 10px;
-    }
+        border-left: solid 3px #cfe0cc;
+        padding-left: 30px;
 
-    .person {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        p {
+            font-size: 12px;
+        }
 
-        img {
-            min-width: 60dvw;
-            width: 60dvw;
-            height: auto;
-            min-height: 100px;
-            margin: auto;
-            border-radius: 50%;
-            margin: auto;
-        }  
-        
-        button {
-            background: none;
-            margin-top: 20px;
-            min-height: 50px;
-            background-color: grey;
-            border: none;
-            color: white;
+        span {
+            font-size: 13px;
         }
     }
-
+  }
 }
