@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/forest-hills-chiro/static/css/main.aa3040b1.css",
-    "main.js": "/forest-hills-chiro/static/js/main.0e756946.js",
+    "main.css": "/forest-hills-chiro/static/css/main.9fd5cf70.css",
+    "main.js": "/forest-hills-chiro/static/js/main.caaa1917.js",
     "static/media/pitt.jpeg": "/forest-hills-chiro/static/media/pitt.016644f27a6d839ceb57.jpeg",
     "index.html": "/forest-hills-chiro/index.html",
-    "main.aa3040b1.css.map": "/forest-hills-chiro/static/css/main.aa3040b1.css.map",
-    "main.0e756946.js.map": "/forest-hills-chiro/static/js/main.0e756946.js.map"
+    "main.9fd5cf70.css.map": "/forest-hills-chiro/static/css/main.9fd5cf70.css.map",
+    "main.caaa1917.js.map": "/forest-hills-chiro/static/js/main.caaa1917.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa3040b1.css",
-    "static/js/main.0e756946.js"
+    "static/css/main.9fd5cf70.css",
+    "static/js/main.caaa1917.js"
   ]
 }
