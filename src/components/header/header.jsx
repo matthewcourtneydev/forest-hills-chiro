@@ -6,9 +6,10 @@ const Header = () => {
         <header className="header" id="header">
             <div className="overlay"></div>
             <section className="inner">
-                <h2>Find a Treatment thats right for you</h2>
+                <h2>Forest Hills</h2>
+                <h5>Chiropractic</h5>
                 <p>At Forest Hills Chiropractic we understand that theres no one size fits all treatment plan. Take a look at the different remedies offered.</p>
-                <button>Learn More</button>
+                <button>BOOK AN APPOINTMENT TODAY</button>
             </section>
         </header>
     );

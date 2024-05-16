@@ -1,20 +1,64 @@
-import React from 'react';
-import "./spinal-decompression.scss"
+import React from "react";
+import "./spinal-decompression.scss";
+import ContactButton from "../../components/contact-button/contact-button";
 
 const SpinalDecompression = () => {
-    return (
-        <div className="page" id="spinal-decompression">
-            <h2>Spinal Decompression</h2>
-            <p>Thinking about spinal Decompression? You don't have to live in debilitating pain. Whether you have lower back pain, a pinched nerve, sciatica, radiating pain into the arms or legs, neck pain, or a variety of symptoms related to damaged or degenerative discs, spinal stenosis and post-operative complications, as well as syndromes of the lumbar and cervical spine. Spinal Decompression may be for you.</p>
-            <p>This gentle, non-surgical procedure can provide lower back and neck pain relief, sciatica pain relief, and is a state-of-the-art procedure for, bulging, herniated or degenerative disc disease in the neck and lumbar regions.</p>
-            <p>The gentle distractive forces of the Spinal Decompression create a decompression of the spine with unloading due to distraction and proper positioning, to improve blood flow and nutrient exchange to the injured area. You'll experience several cycles of stretch and relaxation, which graduates to a peak over a period of several minutes.</p>
-            <h3>How long does the treatment take</h3>
-            <p>Therapy sessions typically last less than 20 minutes, 3 times a week for 1 month, transitioning from passive to active treatments as you respond, with most patients feeling pain relief with as few as 6-10 treatments. Most patients are released from treatment after 8 weeks.</p>
-            <p>A complete program targeting the function of the stabilization ligaments, tendons and muscles is a vital part of Spinal Decompression. Exercise and adjunctive therapies such as heat, muscle stimulation, ultrasound, and cold therapy can assist in rehabilitation of these structures. Our goal is to not only help heal the disc, but to also enhance muscular control and support of the back and neck.</p>
-            <p>Regular home exercise and periodic visits to our office will help in maintaining your spinal health and reduce the probability of reoccurrence.</p>
-            <p>Call our team at Forest Hills Chiropractic if you have questions about spinal decompression in Forest Hills.</p>
-        </div>
-    );
-}
+  return (
+    <div className="page" id="spinal-decompression">
+      <h2>Spinal Decompression</h2>
+      <p>
+        Forest Hills Chiropractic is proud to offer state-of-the-art spinal
+        decompression services to help patients find relief from chronic back
+        pain and related conditions. Our spinal decompression therapy is a
+        non-invasive, gentle treatment option designed to alleviate pressure on
+        the spine and promote natural healing.
+      </p>
+      <p>
+        With our spinal decompression services, patients can experience a range
+        of benefits, including:
+      </p>
+      <ul>
+        <li>
+          Pain relief: Spinal decompression therapy can effectively relieve pain
+          associated with herniated discs, bulging discs, degenerative disc
+          disease, sciatica, and other spinal conditions by reducing pressure on
+          the affected nerves and discs.
+        </li>
+        <li>
+          Improved mobility: By gently stretching the spine and creating
+          negative pressure within the discs, spinal decompression therapy helps
+          promote proper alignment, restore mobility, and enhance range of
+          motion in the spine.
+        </li>
+        <li>
+          Enhanced healing: Spinal decompression therapy stimulates the body's
+          natural healing process, promoting increased blood flow, nutrient
+          delivery, and hydration to the injured discs, which can accelerate
+          tissue repair and regeneration.
+        </li>
+        <li>
+          Non-surgical alternative: Spinal decompression therapy offers a
+          non-surgical alternative to traditional treatments such as surgery or
+          medication, allowing patients to avoid the risks and downtime
+          associated with invasive procedures.
+        </li>
+        <li>
+          Customized treatment: Our experienced chiropractors work closely with
+          each patient to develop personalized treatment plans tailored to their
+          specific needs, ensuring optimal results and long-term relief from
+          chronic back pain.
+        </li>
+      </ul>
+      <p>
+        At Forest Hills Chiropractic, our dedicated team is committed to helping
+        patients achieve optimal spinal health and overall wellness through
+        advanced spinal decompression therapy. If you're struggling with chronic
+        back pain or spinal issues, schedule a consultation with us today to
+        learn more about how spinal decompression therapy can benefit you.
+      </p>
+      <ContactButton />
+    </div>
+  );
+};
 
 export default SpinalDecompression;

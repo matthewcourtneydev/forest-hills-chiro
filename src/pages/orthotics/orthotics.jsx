@@ -1,18 +1,62 @@
-import React from 'react';
-import "./orthotics.scss"
+import React from "react";
+import "./orthotics.scss";
+import ContactButton from "../../components/contact-button/contact-button";
 
 const Orthotics = () => {
-    return (
-        <div className="page" id="orthotics">
-            <h2>Orthotics</h2>
-            <p>Are you looking for orthotics in Forest Hills PA? ? Orthotics are a great way to help with issues related to walking and alignment. Some of these include but are not limited to knee, foot and lower back pain. The need for orthotics is often related to an issue with the natural functioning of the foot.</p>
-            <h3>Understnading Orthotics</h3>
-            <p>Orthotics will often help to realign the bones within the foot and ankle and therefore take pressure of other parts of the body such as the back, neck, shoulders and hips. In addition, orthotics will help with distributing your weight properly and take further pressure off of toes, bunions and other parts of the foot.</p>
-            <p>Orthotics are really for anyone with an issue or discomfort relating to walking or imbalances in the body that are known to cause related pain. The great benefit of orthotics is that they can be worn on a daily basis and be utilized during most activities to take further stress of the body.</p>
-            <p>Orthotics can often be prescribed by our doctors and can last well over a year in most cases. This is a great investment into your overall health and well being via a biomechanical standpoint.</p>
-            <p>If you are looking for a orthotics in Forest Hills, call our team at Forest Hills Chiropractic today for a no obligation consultation and find out what possibilities lay ahead for you!</p>
-        </div>
-    );
-}
+  return (
+    <div className="page" id="orthotics">
+      <h2>Orthotics</h2>
+      <p>
+        Forest Hills Chiropractic is pleased to offer orthotic services as part
+        of our commitment to comprehensive care and holistic wellness. Our
+        orthotic services are designed to address a wide range of foot-related
+        issues and provide custom solutions tailored to each patient's unique
+        needs.
+      </p>
+      <p>
+        With our orthotic services, patients can experience a variety of
+        benefits, including:
+      </p>
+      <ul>
+        <li>
+          Improved foot biomechanics: Our custom orthotics are crafted to
+          support the natural alignment of the feet, helping to alleviate issues
+          such as overpronation, supination, and flat feet.
+        </li>
+        <li>
+          Pain relief: Orthotics can help reduce pain and discomfort associated
+          with conditions such as plantar fasciitis, bunions, neuromas, and
+          arthritis by providing cushioning, support, and stability.
+        </li>
+        <li>
+          Enhanced performance: By promoting proper foot alignment and reducing
+          strain on the muscles and joints, orthotics can improve athletic
+          performance and prevent injuries during physical activity.
+        </li>
+        <li>
+          Correction of gait abnormalities: Orthotics can help correct gait
+          abnormalities and improve walking and running mechanics, reducing the
+          risk of injuries and enhancing overall mobility.
+        </li>
+        <li>
+          Prevention of foot-related complications: Custom orthotics can help
+          prevent the development or progression of foot deformities, injuries,
+          and chronic conditions, promoting long-term foot health and wellness.
+        </li>
+      </ul>
+      <p>
+        At Forest Hills Chiropractic, our experienced team of chiropractors and
+        orthotic specialists works closely with patients to assess their foot
+        health, identify any issues or imbalances, and develop personalized
+        orthotic solutions to address their specific needs. Whether you're
+        seeking relief from foot pain, looking to improve athletic performance,
+        or simply want to support your overall foot health, our orthotic
+        services can help you achieve your goals. Schedule a consultation with
+        us today to learn more about how custom orthotics can benefit you.
+      </p>
+      <ContactButton />
+    </div>
+  );
+};
 
 export default Orthotics;

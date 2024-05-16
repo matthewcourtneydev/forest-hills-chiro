@@ -1,16 +1,32 @@
 .services-card {
-    background-color: #6e8c73;
+    background-color: #576c82;
     margin-top: 10px;
-    padding: 50px 0px;
+    margin-bottom: 15px;
+    padding: 30px 30px;
+    padding-top: 50px;
     justify-content: center;
     text-align: center;
     font-size: 22px;
     color: #f6f7f3;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 
-    p {
-        font-size: 18px;
+    p, li {
+        line-height: 18px;
+        font-size: 12px;
+        letter-spacing: .5px;
         text-align: left;
+    }
+
+    ul {
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #a9c3d0;
     }
 }
