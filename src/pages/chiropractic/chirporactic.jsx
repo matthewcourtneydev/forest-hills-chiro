@@ -2,6 +2,7 @@ import React from "react";
 import "./chiropractic.scss";
 import Services from "../../services.json";
 import ServicesCard from "../../components/services-card/services-card";
+import ContactButton from "../../components/contact-button/contact-button";
 
 const Chirporactic = () => {
   const servicesArray = Services;
@@ -16,6 +17,7 @@ const Chirporactic = () => {
       {servicesArray.map((service) => {
         return <ServicesCard service={service} />;
       })}
+      <ContactButton />
       </div>
     </div>
   );

@@ -8,27 +8,26 @@
     margin-top: 15px;
     margin-bottom: 0px;
     font-family: "Gruppo", sans-serif;
-    color: #a6bea2;
+    color: #576c82;
   }
 
   h4 {
     font-size: 18px;
     margin-bottom: 10px;
     font-family: "Michroma", sans-serif;
-    color: #3b5948;
+    color: #464e5a;
   }
 
   .person {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #3b5948;
+    color: #464e5a;
 
     p {
       letter-spacing: 0.5px;
       line-height: 18px;
       font-size: 12px;
-      font-family: "Michroma", sans-serif;
     }
 
     img {
@@ -43,11 +42,12 @@
 
     button {
       background: none;
-      margin-top: 20px;
+      margin-top: 0px;
       min-height: 50px;
       min-width: 100%;
-      background-color: #6e8c73;
+      background-color: #576c82;
       border: none;
+      margin-bottom: 20px;
       color: white;
       font-family: "Michroma", sans-serif;
     }
@@ -55,7 +55,7 @@
     .quote {
         margin-top: 40px;
         margin-bottom: 10px;
-        border-left: solid 3px #cfe0cc;
+        border-left: solid 3px #a9c3d0;
         padding-left: 30px;
 
         p {
