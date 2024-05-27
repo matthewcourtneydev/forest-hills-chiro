@@ -99,3 +99,50 @@
         font-size: 10px;
     }
 }
+
+// Desktop
+@media only screen and (min-height: 700px) and (min-width: 1100px) {
+    .footer {
+        flex-direction: row;
+        padding-bottom: 35px;
+        justify-content: space-between;
+        min-width: 105dvw;
+
+        .address {
+            max-width: 33%;
+        }
+
+        .hours {
+            max-width: 34%;
+            min-width: 34%;
+            margin-top: 0px;
+
+            .hours-list {
+                margin-bottom: 10px;
+            }
+        }
+
+        .map {
+            max-width: 34%;
+            min-width: 34%; 
+            background-color: #a9c3d0;
+
+            p {
+                margin-top: 0px;
+                margin: auto;
+                max-width: 90%;
+                margin-left: auto;
+            }
+        }
+
+        .footnote {
+            position: absolute;
+            bottom: 0px;
+            background-color: #576c82;
+            width: 100svw;
+            margin-left: -30px;
+            padding-top: 15px;
+
+        }
+    }
+}
