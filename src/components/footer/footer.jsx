@@ -39,7 +39,7 @@ const Footer = () => {
                 </ul>
             </section>
             <section className="map">
-                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7704869438558!2d-79.84980468803374!3d40.4139349556898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834ec27cff574bf%3A0xeba2c8a97c96f112!2sForest%20Hills%20Chiropractic%20Center!5e0!3m2!1sen!2sus!4v1715047399198!5m2!1sen!2sus" width="375" height="350" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.7704869438558!2d-79.84980468803374!3d40.4139349556898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834ec27cff574bf%3A0xeba2c8a97c96f112!2sForest%20Hills%20Chiropractic%20Center!5e0!3m2!1sen!2sus!4v1715047399198!5m2!1sen!2sus" width="450px" height="400px" style={{border: 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
             </section>
             <p className="footnote">Copyright Forest Hills Chiropractic</p>
         </footer>

@@ -1,123 +1,123 @@
-.header {
-    min-height: 85dvh;
-    width: 200%;
-    margin: auto;
-    position: absolute;
-    left: -50%;
-    border-radius: 0px 0px 50% 50%;
-    background-image: url("../../imgs/pitt.jpeg");
-    background-size: cover;
-    color: #464e5a;
+// .header {
+//     min-height: 85dvh;
+//     width: 200%;
+//     margin: auto;
+//     position: absolute;
+//     left: -50%;
+//     border-radius: 0px 0px 50% 50%;
+//     background-image: url("../../imgs/pitt.jpeg");
+//     background-size: cover;
+//     color: #464e5a;
 
-    .overlay {
-        min-height: 85dvh;
-        width: 100%;
-        margin: auto;
-        position: absolute;
-        left: 0%;
-        border-radius: 0px 0px 50% 50%;
-        z-index: 3;
-        background-color: #ffffffd6;
-    }
+//     .overlay {
+//         min-height: 85dvh;
+//         width: 100%;
+//         margin: auto;
+//         position: absolute;
+//         left: 0%;
+//         border-radius: 0px 0px 50% 50%;
+//         z-index: 3;
+//         background-color: #ffffffd6;
+//     }
     
 
-    .inner {
-        max-width: 48dvh;
-        position: relative;
-        margin: auto;
-        left: 0;
-        right: 0;
-        margin-top: 170px;
-        z-index: 5;
+//     .inner {
+//         max-width: 48dvh;
+//         position: relative;
+//         margin: auto;
+//         left: 0;
+//         right: 0;
+//         margin-top: 170px;
+//         z-index: 5;
 
-        h2 {
-            max-width: 100%;
-            margin: auto;
-            text-align: center;
-            font-size: 63px;
-            margin-bottom: -5px;
-            font-family: "Gruppo", sans-serif;
-            letter-spacing: 0px;
-        }
+//         h2 {
+//             max-width: 100%;
+//             margin: auto;
+//             text-align: center;
+//             font-size: 63px;
+//             margin-bottom: -5px;
+//             font-family: "Gruppo", sans-serif;
+//             letter-spacing: 0px;
+//         }
 
-        h5 {
-            text-align: center;
-            font-size: 25px;
-            letter-spacing: 2px;
-            margin-bottom: 35px;
-            color: #576c82;
-        }
+//         h5 {
+//             text-align: center;
+//             font-size: 25px;
+//             letter-spacing: 2px;
+//             margin-bottom: 35px;
+//             color: #576c82;
+//         }
 
-        p {
-            font-size: 15px !important;
-            line-height: 20px;
-            text-align: center;
-        }
+//         p {
+//             font-size: 15px !important;
+//             line-height: 20px;
+//             text-align: center;
+//         }
 
-        button {
-            position: absolute;
-            left: 0;
-            right: 0;
-            margin: auto;
-            max-width: 60%;
-            background: none;
-            border: none;
-            background-color: #a9c3d0;
-            // background-color: rgb(244, 168, 101);
-            background-color: rgb(218, 144, 105);
-            padding: 15px;
-            border-radius: 25px;
-            margin-top: 20px;
-            color: #464e5a;
-            font-size: 10px;
-            color: white;
-        }
-    }
-}
+//         button {
+//             position: absolute;
+//             left: 0;
+//             right: 0;
+//             margin: auto;
+//             max-width: 60%;
+//             background: none;
+//             border: none;
+//             background-color: #a9c3d0;
+//             // background-color: rgb(244, 168, 101);
+//             background-color: rgb(218, 144, 105);
+//             padding: 15px;
+//             border-radius: 25px;
+//             margin-top: 20px;
+//             color: #464e5a;
+//             font-size: 10px;
+//             color: white;
+//         }
+//     }
+// }
 
-// Iphone ProMax 14
-@media only screen and (min-height: 700px) {
+// // Iphone ProMax 14
+// @media only screen and (min-height: 700px) {
 
-}
-
-
-// Above Iphone 14 ProMax
-@media only screen and (min-height: 1000px) {
-
-}
+// }
 
 
-// Desktop
-@media only screen and (min-height: 700px) and (min-width: 1100px) {
+// // Above Iphone 14 ProMax
+// @media only screen and (min-height: 1000px) {
 
-    .header {
-        background-image: url("../../imgs/pitt-skyline-large.jpeg");
+// }
 
-        .inner {
-            max-width: 70svw;
 
-            h2 {
-                font-size: 110px;
-            }
+// // Desktop
+// @media only screen and (min-height: 700px) and (min-width: 1100px) {
 
-            h5 {
-                font-size: 45px;
-            }
+//     .header {
+//         background-image: url("../../imgs/pitt-skyline-large.jpeg");
 
-            p {
-                font-size: 20px !important;
-                line-height: 35px !important;
-                max-width: 750px;
-                margin: auto;
-                text-align: center;
-            }
+//         .inner {
+//             max-width: 70svw;
 
-            button {
-                font-size: 16px;
-                padding-left: 10px;
-                padding-right: 10px;
-                max-width: 350px;
-            }
-        }
-    }
-}
+//             h2 {
+//                 font-size: 110px;
+//             }
+
+//             h5 {
+//                 font-size: 45px;
+//             }
+
+//             p {
+//                 font-size: 20px !important;
+//                 line-height: 35px !important;
+//                 max-width: 750px;
+//                 margin: auto;
+//                 text-align: center;
+//             }
+
+//             button {
+//                 font-size: 16px;
+//                 padding-left: 10px;
+//                 padding-right: 10px;
+//                 max-width: 350px;
+//             }
+//         }
+//     }
+// }
